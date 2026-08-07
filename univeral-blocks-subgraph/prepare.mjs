@@ -127,7 +127,7 @@ pjson.scripts = {
 	bd: `pnpm run build && pnpm run deploy`,
 };
 
-pjson.name = `${chain}/min-blocks`;
+pjson.name = `${chain}-min-blocks`;
 
 await fs.writeFile("package.json", JSON.stringify(pjson, null, "\t"));
 
