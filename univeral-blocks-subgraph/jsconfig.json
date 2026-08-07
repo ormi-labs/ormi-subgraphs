@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"target": "ES2022",
+		"checkJs": true,
+		"allowImportingTsExtensions": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"maxNodeModuleJsDepth": 0,
+		"types": ["node"]
+	},
+	"include": ["prepare.mjs"]
+}
